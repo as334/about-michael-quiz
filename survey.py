@@ -119,13 +119,28 @@ while (inc == True):
 				score = score + 1
 				qfive = False
 				print "Correct! Score:", str(score)
-			elif (five == "a" or five == "b" or five == "c"):
+			elif (five == "a"):
 				qfive = False
 				print "Incorrect. Score:", str(score)
 			else:
 				print "Invalid selection.  Please try agian."
 			print ""
-
+		qsix = True
+		while (qsix == True):
+			print "Does Michael Rip Fat Ergos"
+			print "a)No b)Yes"
+			six = raw_input()
+			six = five.lower()
+			if (six == "b"):
+				score = score + 1
+				qsix = False
+				print "Correct! Score:", str(score)
+			elif (six == "a"):
+				qsix = False
+				print "Incorrect. Score:", str(score)
+			else:
+				print "Invalid selection.  Please try agian."
+			print ""
 		qbonus = True
 		while (qbonus == True):
 			print "Would you like a bonus question?"
